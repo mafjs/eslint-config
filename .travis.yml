@@ -1,0 +1,21 @@
+sudo: false
+language: node_js
+node_js:
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+
+deploy:
+  provider: npm
+  email: alekzonder@gmail.com
+  api_key:
+    secure: tlw5VHH3Bz36s7mCscfNIlHT+6+rNiQukIfCUcIOLq0bIKf0U+Yc0dLVwy2NE4BpeGA9m6TuoJGaT3J/0sua6ZeyULcatm2w5av1c2oLhgtW3bkK5ThECMBU7Uj5CHFuF9g74SjXiYO25v7eQe50PXYYBFPpJTcL5P1GdvORZnglFcFQY8M04TKKJAFVeaODoL8jnHFIlYtJCuhBYZU94sbQyGlCkHh3fpgM/b5wF3jWbW1SrXZcYOoYNc7FX2QByP38bK1PXUO5PvrovUru/jtvnbvd92x0e9CwW+blA7Llkagl959s3E/x1xxqfXK/tDe9QdhC8zsipTVVdYQ6v7yx3opgtejM9jY0IOEe/DImxHGS7ZIS/dvzQ9WnGUxrxBOAMej21ZkFKdLc9TB8yDWzgDw9oB9ERCJ5t9eZX0E/BH+YqO3sYXxm9a75G1SfNEA/tYtV8rCDMihuPI7CLSdlatWaxLlsneQfMqvCjPkrBnICeuy/vR6Wp3gkcTli/7MABIr7w2Yqx//MScSkQUcNrdt9V6/poznHrT2ItBXgWJKEPsEtPUNK7VffVfAiCtgYWjHfG3VVnuOygJJCEz4MsoS0CwXt/tur5GWKdNgpZHKy6VTVcnuU9LsI3KZene7JqZIV2ITHEaVDOMCeUaMVodPZYyXVZvwDsVVGEtc=
+  on:
+    tags: true
+    repo: mafjs/eslint-config
+notifications:
+  slack:
+    secure: Fu9od/HmNtTsgZN5vc9BHa1nDEsROeG6eWzffkfP3zClAYfyzCxARdBs/BwC2FZKblu1CdsbXKxrLkgen+UrK5eucnglv9QSS42JU2W8jjDNrsMEJ+fotIr51hrCOG0pPvweo1iczcHZc4Yhyyo3zKlBpwp6H1hQJYbUWwC7CqZOk3s9gd8c25NzDNwInSxmlkmKz7UH7IPmPWlDiF+LbALwu/CiRkD2yrpaXxIl26JqAPX25C1HI02EALi0+83PuwJmbQIePlB+IKLM3sVhh+xO4WDdLMVUW/W+2lAdDeizXdgkcnwysuEXCkCQldXuE5PGnwZ8S2uzr9w60rzHcCFsi9GTEucm/iYsZ12S/ZZaLtPcCqDt2D38eu2+aR5/EbGUfsd6e/r5AkJgqrsrDk9f5mgVMmv8Q6EWnZCLfQiloCeOgrxeVH2k/A58L3WLbZyEAq4PGjRAEirbt3iy9C5EZjaPHvL5osta9wSXfcWcuVDyDIw3pXOCtEH719eJmdHNmC/jFq4x+/fCt1y1DmMmKeTJONZn0gmMmyMUkGVom6mRHBRq0lQzDGcWy1ZYGHrNzljqpjF7533URiYZx01utQ1IGifIDfVpaJKkgn5oouOTH4W6ORXOb/ux1brV0tmfedonfe537AQJ2OKGG/7LHYq9x1SjPhxl+Xk7jU0=
+  on:
+    tags: true
