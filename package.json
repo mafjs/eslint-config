@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "eslint config",
   "main": "index.js",
-  "private": false,
+  "public": true,
   "scripts": {
     "test": "echo \"no test specified\" && exit 0",
     "postversion": "git push && git push --tags"
