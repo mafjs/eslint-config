@@ -8,6 +8,9 @@
     "test": "echo \"no test specified\" && exit 0",
     "postversion": "git push && git push --tags"
   },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mafjs/eslint-config.git"
