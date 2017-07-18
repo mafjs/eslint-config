@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/mafjs/eslint-config/issues"
   },
-  "homepage": "https://github.com/mafjs/eslint-config#readme"
+  "homepage": "https://github.com/mafjs/eslint-config#readme",
+  "dependencies": {
+    "babel-eslint": "^7.2.3"
+  }
 }
