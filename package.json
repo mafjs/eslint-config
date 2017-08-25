@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/mafjs/eslint-config#readme",
   "dependencies": {
-    "babel-eslint": "^7.2.3"
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0"
   }
 }
