@@ -1,12 +1,8 @@
 module.exports = {
     extends: 'airbnb-base',
 
-    parser: 'babel-eslint',
-
-    globals: {},
-
-    env: {
-        node: true,
-        browser: true
+    rules: {
+        indent: ['error', 4],
+        'comma-dangle': ['error', 'never']
     }
 };
