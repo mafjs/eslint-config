@@ -4,6 +4,7 @@ module.exports = {
     rules: {
         indent: ['error', 4],
         'comma-dangle': ['error', 'never'],
-        "no-underscore-dangle": ["error", { allowAfterThis: true }]
+        'no-underscore-dangle': ['error', { allowAfterThis: true }],
+        'import/no-extraneous-dependencies': ['error', { devDependencies: true }]
     }
 };
