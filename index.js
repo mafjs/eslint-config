@@ -3,6 +3,7 @@ module.exports = {
 
     rules: {
         indent: ['error', 4],
-        'comma-dangle': ['error', 'never']
+        'comma-dangle': ['error', 'never'],
+        "no-underscore-dangle": ["error", { allowAfterThis: true }]
     }
 };
