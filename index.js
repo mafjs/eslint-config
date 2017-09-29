@@ -6,6 +6,7 @@ module.exports = {
         'comma-dangle': ['error', 'never'],
         'no-underscore-dangle': ['error', { allowAfterThis: true }],
         'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-        'prefer-destructuring': [0]
+        'prefer-destructuring': [0],
+        'newline-per-chained-call': ['error', { ignoreChainWithDepth: 9 }]
     }
 };
